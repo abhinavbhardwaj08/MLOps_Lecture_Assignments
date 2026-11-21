@@ -9,3 +9,6 @@ def test_delivery_estimate():
 
 def test_zero_distance():
     assert estimate_delivery(0) == 0
+
+def test_intentional_failure():
+    assert 2 + 2 == 5
